@@ -1,0 +1,1 @@
+require("http").createServer((e,r)=>{console.log(e.url.slice(1)),r.end()}).listen(900);

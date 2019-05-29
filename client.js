@@ -1,0 +1,1 @@
+var r=Math.random();require("http").get("http://127.1:900/"+r),console.log(r);
